@@ -2,6 +2,11 @@
    "cmake.configureArgs": [
        "-DCMAKE_BUILD_TYPE=Debug",
        "-DSTORM_BUILD_TESTS=on",
-   ]
+  ],
+  "files.associations": {
+    "*.toml": "ini",
+    "*.spvasm": "julia",
+    "cstdlib": "cpp"
+  }
  }
  
